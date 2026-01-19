@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Berita: Kunci Hilang Misterius</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 30px;
+    }
+    .news-box {
+      max-width: 700px;
+      margin: auto;
+      background: #020617;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    h1 { color: #38bdf8; }
+    .hint {
+      margin-top: 20px;
+      font-style: italic;
+      color: #94a3b8;
+    }
+    .keyword {
+      color: #38bdf8;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="news-box">
+  <h1>🔐 Misteri Kunci Hilang di Sekolah</h1>
+
+  <p>
+    Warga sekolah dikejutkan oleh hilangnya sebuah kunci penting yang
+    mengakses ruang penyimpanan utama. Kunci itu terakhir terlihat
+    pada malam hari sebelum acara besar dimulai.
+  </p>
+
+  <p>
+    Seorang siswa mengaku sempat melihat tulisan aneh di dekat loker,
+    bertuliskan <span class="keyword">NIGHTLOCK</span> yang diduga
+    berkaitan dengan hilangnya kunci tersebut.
+  </p>
+
+  <p>
+    Hingga kini pihak keamanan masih menyelidiki kasus ini, dan siapa pun
+    yang menemukan petunjuk tentang kata itu diharapkan segera melapor.
+  </p>
+
+  <div class="hint">
+    “Kalau kau membaca dengan teliti, kuncinya sudah ada di depan mata. ~ Caesar/ Caesar Cipher shift +4”
+  </div>
+  <h6>Sumber :</h6> 
+  <a href="https://google.com">Klik di sini</a>
+
+</div>
+
+<script>
+  // Ambil kata kunci dari paragraf
+  const keywordText = document.querySelector('.keyword').innerText;
+  console.log("Kata kunci rahasia:", keywordText);
+</script>
+
+</body>
+</html>
